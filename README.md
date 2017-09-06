@@ -4,6 +4,7 @@ Repositorio Git para las prácticas de la asignatura Proyectos para la web, Grad
 
 Aquí iremos recopilando el contenido y tareas para la elaboración de actividades prácticas de la asignatura. De momento, podéis empezar a haceros con las herramientas que vamos a utilizar:
 
+- Conocimientos básicos de HTML y CSS. Podéis revisar el curso de Codecademy que hicisteis durante el curso pasado o consultar estos manuales online: [Introducción a XHTML](http://librosweb.es/libro/xhtml/) e [Introducción a CSS](http://librosweb.es/libro/css/)
 - [Sublime Text](https://www.sublimetext.com/) es un editor de texto plano. [Descarga](https://www.sublimetext.com/3) e instala la versión apropiada para tu equipo.
 - [GitHub](https://github.com/) es una plataforma colaborativa de control de versiones. De momento,
     - [abre una cuenta](https://github.com/join?source=header-home) con tu correo de OpenDeusto y
