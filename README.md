@@ -9,4 +9,4 @@ Aquí iremos recopilando el contenido y tareas para la elaboración de actividad
 - [GitHub](https://github.com/) es una plataforma colaborativa de control de versiones. De momento,
     - [abre una cuenta](https://github.com/join?source=header-home) con tu correo de OpenDeusto y
     - [descarga](https://desktop.github.com/) e instala el cliente de escritorio GitHub Desktop.
-- [Markdown](https://markdown.es/) es un lenguaje que permite aportar estructura a documentos de texto llano. No hace falta instalar nada; de momento, puedes ir mirando [su sintaxis](https://markdown.es/sintaxis-markdown/).
+- [Markdown](https://markdown.es/) es un lenguaje que permite aportar estructura a documentos de texto llano. No hace falta instalar nada; de momento, puedes ir mirando [su sintaxis](markdown.md).
