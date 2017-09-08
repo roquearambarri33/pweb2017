@@ -174,6 +174,4 @@ Cualquier palabra rodeada de dos tildes (`~~así~~`, con `AltGr+4`) aparecerá t
 
 GitHub soporta emoticonos! :sparkles: :camel: :boom:
 
-Para ver una lista de todos los emoticonos disponobiles, 
-
-To see a list of every image we support, mira el [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/).
+Para ver una lista de todos los emoticonos disponibles, mira el [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/).
