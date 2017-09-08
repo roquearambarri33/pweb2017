@@ -1,6 +1,6 @@
 # Guía de sintaxis de Markdown
 
-Aquí tienes un resumen de la sintaxis de Markdown que puedes usar en cualquier sitio de GitHub.com o tus propios archivos de texto.
+Aquí tienes un resumen de la sintaxis de Markdown que puedes usar en cualquier sitio de GitHub.com o tus propios archivos de texto. Más información en la página de ayuda de GitHub [Basic Writing and Formatting Syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
 
 ## Encabezados (títulos)
 
@@ -68,10 +68,10 @@ _Puedes **hacer** combinaciones_
 
 ```
 ![Alt Text](url) por ejemplo:
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/img/octocat.png)
 ```
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/img/octocat.png)
 
 ## Enlaces
 
