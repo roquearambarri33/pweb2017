@@ -10,10 +10,6 @@ Aquí tienes un resumen de la sintaxis de Markdown que puedes usar en cualquier 
 ###### Esto es una etiqueta <h6>
 ```
 
-# Esto es una etiqueta <h1> 
-## Esto es una etiqueta <h2>
-###### Esto es una etiqueta <h6>
-
 ## Énfasis / resaltados
 
 ```
@@ -27,9 +23,11 @@ _Puedes **hacer** combinaciones_
 ```
 
 *Este texto estará en cursiva*
+
 _Esto también estará en cursiva_
 
 **Este texto estará en negrita**
+
 __Esto también estará en negrita__
 
 _Puedes **hacer** combinaciones_
@@ -83,6 +81,7 @@ http://github.com - ¡automático!
 ```
 
 http://github.com - ¡automático!
+
 [GitHub](http://github.com)
 
 ## Bloques de cita
@@ -119,14 +118,62 @@ Algunas de estas características son específicas para trabajar con código de 
 
 ## Listas de tareas
 
+Si incluyes una lista de tareas en el primer comentario de un Issue, obtendrás un práctico indicador de progreso en tu lista de issues. ¡También funciona en los Pull Requests!
+
+```
+- [x] soportan @menciones, #referencias, [enlaces](), **formato** y <del>etiquetas</del> 
+- [x] requiere sintaxis de lista (soporta cualquiern lista ordenada o desordenada)
+- [x] éste es un item completado
+- [ ] éste es un item sin completar
+```
+
+- [x] soportan @menciones, #referencias, [enlaces](), **formato** y <del>etiquetas</del> 
+- [x] requiere sintaxis de lista (soporta cualquiern lista ordenada o desordenada)
+- [x] éste es un item completado
+- [ ] éste es un item sin completar
+
 ## Tablas
+
+Puedes crear tablas mediante listas de palabras separadas con guiones `-` (para la primera línea), y luego separando cada columna con una raya `|` (`AltGr+1`)
+
+```
+Primer encabezado | Segundo encabezado
+------------ | -------------
+Contenido de la celda 1 | Contenido de la celda 2
+Contenido en la primera columna | Contenido en la segunda columna
+```
+
+Primer encabezado | Segundo encabezado
+------------ | -------------
+Contenido de la celda 1 | Contenido de la celda 2
+Contenido en la primera columna | Contenido en la segunda columna
 
 ## Referencias a Issues del mismo repositorio
 
+Cualquier número que haga referencia a un Issue o Pull Request será automáticamente convertido en un enlace.
+
+```
+#1
+mojombo#1
+mojombo/github-flavored-markdown#1
+```
+
 ## @menciones a usuarios
+
+Escribiendo una arroba `@` seguida por un nombre de usuario, se notificará a esa persona para que consulte el comentario. Esto se llama "@mención", porque estás _mencionando_ a la persona. También puedes hacer una @mención a equipos dentro de una organización.
 
 ## Enlaces automáticos de URLs
 
+Cualquier URL (como http://www.github.com/) se convertirá automáticamente en un enlace clicable.
+
 ## Tachados
 
-## Emoji
+Cualquier palabra rodeada de dos tildes (`~~así~~`, con `AltGr+4`) aparecerá tachada, ~~así~~.
+
+## Emoticonos
+
+GitHub soporta emoticonos! :sparkles: :camel: :boom:
+
+Para ver una lista de todos los emoticonos disponobiles, 
+
+To see a list of every image we support, mira el [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/).
