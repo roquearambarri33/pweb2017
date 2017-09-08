@@ -4,7 +4,8 @@ Aquí tienes un resumen de la sintaxis de Markdown que puedes usar en cualquier 
 
 ## Encabezados (títulos)
 
-```# Esto es una etiqueta <h1> 
+```
+# Esto es una etiqueta <h1> 
 ## Esto es una etiqueta <h2>
 ###### Esto es una etiqueta <h6>
 ```
