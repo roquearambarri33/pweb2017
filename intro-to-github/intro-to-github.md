@@ -106,8 +106,16 @@ Generalmente Git funciona de manera bastante inteligente y sabrá proponer una r
 - Resume con un infinitivo y de manera informativa en qué ha consistido el cambio (ej. "Cambiar mi salario")
 - Es mucho más fácil gestionar las modificaciones y los conflictos sobre documentos de **texto plano (como HTML o Markdown)**
 
+## Markdown
 
+------
+
+La sintaxis de Markdown es simple y fácil de recordar.
+
+------
+
+![Ejemplo de Markdown](img/markdown-example.png)
 
 ## Qué es GitHub
 
-## Crear una cuenta en GitHub
+### Crear una cuenta en GitHub
