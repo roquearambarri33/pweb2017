@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Why not PowerPoint: alternative tools to build and share knowledge</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/beige.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Why not PowerPoint: alternative tools to build and share knowledge</h1>
+</section>
+
+<section id="statement-of-purpose" class="slide level2">
+<h1>Statement of purpose</h1>
+<p>I want a workflow that will cover the following:</p>
+<ul>
+<li>Reference management</li>
+<li>Writing</li>
+<li>Generate output (deliverables)</li>
+<li>Backup and version control</li>
+</ul>
+</section>
+<section><section id="reference-management" class="titleslide slide level1"><h1>1. Reference management</h1></section><section id="requirements" class="slide level2">
+<h1>Requirements</h1>
+<ul>
+<li>File management:
+<ul>
+<li>Store (or manage storage of) PDF files, consistent/meaningful file naming</li>
+<li>Allow cloud-storage for <em>portable</em> access (e.g. reading from a tablet)</li>
+</ul></li>
+</ul>
+</section><section class="slide level2">
+
+<ul>
+<li>File management:
+<ul>
+<li>Store (or manage storage of) PDF files, consistent/meaningful file naming</li>
+<li>Allow cloud-storage for <em>portable</em> access (e.g. reading from a tablet)</li>
+</ul></li>
+<li>Citations
+<ul>
+<li>Easily cite references</li>
+</ul></li>
+</ul>
+</section><section id="tool-of-choice" class="slide level2">
+<h1>Tool of choice</h1>
+<figure>
+<img src="img/mendeley.jpg" alt="Mendeley" /><figcaption><a href="https://www.mendeley.com">Mendeley</a></figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img src="img/mendeley-screenshot.png" alt="Screenshot from Mendeley" /><figcaption>Screenshot from Mendeley</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img src="img/highlights-sumnotes.png" alt="Highlighting PDF files, exporting to plain text with Sumnotes" /><figcaption>Highlighting PDF files, exporting to plain text with <a href="https://www.sumnotes.net/">Sumnotes</a></figcaption>
+</figure>
+</section></section>
+<section><section id="writing" class="titleslide slide level1"><h1>2. Writing</h1></section><section id="requirements-1" class="slide level2">
+<h1>Requirements</h1>
+<ul>
+<li>Allow for distraction-free writing</li>
+<li>Citations: easily cite references</li>
+<li>Avoid platform dependencies</li>
+<li>Avoid file corruption</li>
+</ul>
+</section></section>
+<section><section id="outputdeliverables" class="titleslide slide level1"><h1>3. Output/deliverables</h1></section><section id="requirements-2" class="slide level2">
+<h1>Requirements</h1>
+<ul>
+<li>Escape the need to spend time on formatting</li>
+<li>Ease or make format transformations more flexible</li>
+<li>Citations: easily cite references</li>
+</ul>
+</section></section>
+<section><section id="swiss-army-knife-for-tasks-2-3" class="titleslide slide level1"><h1>Swiss-Army Knife for tasks 2 &amp; 3</h1></section><section id="tool-of-choice-1" class="slide level2">
+<h1>Tool of choice</h1>
+<figure>
+<img src="img/pandoc.png" alt="Pandoc" /><figcaption><a href="http://pandoc.org/">Pandoc</a></figcaption>
+</figure>
+</section><section class="slide level2">
+
+<p>Pandoc for writing and formatting:</p>
+<p>one tool to work on the two of them separately</p>
+</section><section class="slide level2">
+
+<figure>
+<img src="img/sublime-screenshot.png" alt="Plain text writing" /><figcaption>Plain text writing</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<h3 id="pandoc-commands">Pandoc commands</h3>
+<p>Generate a PDF output (<code>-o target-filename.pdf</code>) from Markdown source (<code>src-filename.md</code>), typographically correct (<code>-S</code>), standalone (<code>-s</code>), with numbered sections (<code>-N</code>), taking bibliographic references from the specified BibTeX file (<code>--bibliography=library.bib</code>).</p>
+<pre><code>pandoc -S -s -N --bibliography=library.bib  
+    -o target-filename.pdf src-filename.md</code></pre>
+</section><section class="slide level2">
+
+<h3 id="pandoc-commands-1">Pandoc commands</h3>
+<p>Generate a Word output (<code>-o target-filename.docx</code>) from Markdown source (<code>src-filename.md</code>), standalone (<code>-s</code>), taking bibliographic references from the specified BibTeX file (<code>--bibliography=library.bib</code>).</p>
+<pre><code>pandoc -s --bibliography=library.bib 
+    -o target-filename.docx src-filename.md</code></pre>
+</section><section class="slide level2">
+
+<p>One source-file to produce-them-all (outputs):</p>
+<figure>
+<img src="img/pandoc-outputs.png" alt="PDF through LaTeX vs. Word" /><figcaption>PDF through LaTeX <em>vs.</em> Word</figcaption>
+</figure>
+</section><section id="main-advantage" class="slide level2">
+<h1>Main advantage</h1>
+<ul>
+<li>Single source file, multiple outputs</li>
+<li>Simplified writing markup: <a href="http://daringfireball.net/projects/markdown/">Markdown</a> <em>vs.</em> raw <a href="http://www.latex-project.org/">LaTeX</a></li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img src="img/latex-screenshot.png" alt="LaTex source screenshot" /><figcaption>LaTex source screenshot</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<p>Markdown syntax is simple and easy to remember</p>
+<figure>
+<img src="img/markdown-example.png" alt="Sample of Markdown syntax" /><figcaption>Sample of Markdown syntax</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<p>Pandoc makes it more practical for academic purposes.</p>
+<p>Adds support for:</p>
+<ul>
+<li>Metadata blocks (simple or YAML-formatted)</li>
+<li>Internal and reference links</li>
+</ul>
+</section><section class="slide level2">
+
+<p>And, more importantly,</p>
+<ul>
+<li><p>Footnotes</p>
+<pre><code>Here is a footnote reference,[^1] 
+and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here&#39;s one with multiple blocks.
+
+  Subsequent paragraphs are indented to show
+  that they belong to the previous footnote.</code></pre></li>
+</ul>
+</section><section class="slide level2">
+
+<ul>
+<li><p>Citations</p>
+<pre><code>Blah blah [see @doe99, pp. 33-35; also @smith04, ch. 1].
+
+Blah blah [@smith04; @doe99].
+
+Smith says blah [-@smith04].
+
+@smith04 says blah.
+
+@smith04 [p. 33] says blah.</code></pre></li>
+</ul>
+</section><section id="bonus" class="slide level2">
+<h1>Bonus:</h1>
+<h3 id="advanced-plain-text-editor">Advanced plain-text editor</h3>
+</section><section class="slide level2">
+
+<figure>
+<img src="img/st2.png" alt="Sublime Text: pleasant to write in, efficient to revise and build" /><figcaption><a href="http://www.sublimetext.com/">Sublime Text</a>: pleasant to write in, efficient to revise and build</figcaption>
+</figure>
+</section></section>
+<section><section id="backup-and-version-control" class="titleslide slide level1"><h1>4. Backup and version control</h1></section><section id="requirements-3" class="slide level2">
+<h1>Requirements</h1>
+<ul>
+<li>Give peace of mind (avoid panic-attacks at all points)</li>
+<li>Allow restoration to previous versions without losing integrity</li>
+<li>Function with minimum human intervention (prone to errors)</li>
+</ul>
+</section><section id="tool-of-choice-2" class="slide level2">
+<h1>Tool of choice</h1>
+<figure>
+<img src="img/github.png" alt="Github" /><figcaption><a href="https://github.com/">Github</a></figcaption>
+</figure>
+</section><section id="bonus-1" class="slide level2">
+<h1>Bonus:</h1>
+<h3 id="do-research-with-open-access-at-the-same-time">Do research with Open Access at the same time</h3>
+<ul>
+<li>Data and research process can be available for everyone (or at least for some)</li>
+<li>Allows reproducibility, leads to increased dissemination and greater social impact</li>
+<li>It is the right thing to do</li>
+</ul>
+<p>This presentation, hosted on Github: http://mrn.bz/whynotpowerpoint</p>
+<p>Repository for this presentation: http://mrn.bz/whynotpowerpoint-repo</p>
+</section></section>
+<section><section id="thanks" class="titleslide slide level1"><h1>Thanks!</h1></section><h3 id="miren-berasategi">Miren Berasategi</h3>
+<p>@<a href="http://twitter.com/mberasategi">mberasategi</a></p>
+<p><script type="text/javascript">
+<!--
+h='&#100;&#x65;&#x75;&#x73;&#116;&#x6f;&#46;&#x65;&#x73;';a='&#64;';n='&#x6d;&#x69;&#114;&#x65;&#110;&#46;&#98;&#x65;&#114;&#x61;&#x73;&#x61;&#116;&#x65;&#x67;&#x69;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x6d;&#x69;&#114;&#x65;&#110;&#46;&#98;&#x65;&#114;&#x61;&#x73;&#x61;&#116;&#x65;&#x67;&#x69;&#32;&#x61;&#116;&#32;&#100;&#x65;&#x75;&#x73;&#116;&#x6f;&#32;&#100;&#x6f;&#116;&#32;&#x65;&#x73;</noscript></p>
+<p><a href="http://d.mberasategi.com" class="uri">http://d.mberasategi.com</a></p></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

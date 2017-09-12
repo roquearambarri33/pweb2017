@@ -10,3 +10,7 @@ Aquí iremos recopilando el contenido y tareas para la elaboración de actividad
     - [abre una cuenta](https://github.com/join?source=header-home) con tu correo de OpenDeusto y
     - [descarga](https://desktop.github.com/) e instala el cliente de escritorio GitHub Desktop.
 - [Markdown](https://markdown.es/) es un lenguaje que permite aportar estructura a documentos de texto llano. No hace falta instalar nada; de momento, puedes ir mirando [su sintaxis](markdown.md).
+
+## Índice de contenidos
+
+- Introducción a GitHub: presentación de iniciación, un pequeño proyecto en GitHub.
