@@ -14,3 +14,7 @@ Aquí iremos recopilando el contenido y tareas para la elaboración de actividad
 ## Índice de contenidos
 
 - Introducción a GitHub: presentación de iniciación, un pequeño proyecto en GitHub.
+
+## Libro oficial de git
+
+Siempre podéis recurriro al [libro oficial de git](https://git-scm.com/book/es/v2) para saber más.
