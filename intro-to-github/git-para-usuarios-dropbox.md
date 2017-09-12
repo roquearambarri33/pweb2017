@@ -3,7 +3,7 @@ forked from magicseth/GitForDropboxUsers.md
 
 ## Git es genial
 
-Puedesn pensar en git como algo parecido a Dropbox: coge los archivos de tu ordenador, los pone en la nube, y permite que otras personas trabajen sobre ellos. Pero tiene algunas ventajas notables:
+Puedes pensar en git como algo parecido a Dropbox: coge los archivos de tu ordenador, los pone en la nube, y permite que otras personas trabajen sobre ellos. Pero tiene algunas ventajas notables:
 
 ### Colaboración
 
