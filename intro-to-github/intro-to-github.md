@@ -98,6 +98,10 @@ Del libro oficial de Git, [Pro Git](https://git-scm.com/book/es/v2/Inicio---Sobr
 
 Generalmente Git funciona de manera bastante inteligente y sabrá proponer una resolución satisfactoria, salvo que la modificación se haya realizado sobre la misma línea del archivo. 
 
+#### Ramificaciones del trabajo
+
+Git permite trabajar en variantes del proyecto sin modificar el _proyecto principal_. Estas ramificaciones o variantes se denominan `branches`, y volveremos a ellas más adelante. 
+
 ### Sugerencias para los commits
 
 ----
@@ -209,7 +213,7 @@ Para cuando estemos haciendo trabajos de redacción, una manera aún más cómod
 
 ----
 
-Más adelante, si os interesa, podemos ver cómo convertir estos documentos de texto plano en _documentos tradicionales_ en formato PDF, incluso Word, o incluso presentaciones (¡como esta!.
+Más adelante, si os interesa, podemos ver cómo convertir estos documentos de texto plano en _documentos tradicionales_ en formato PDF, incluso Word, o incluso presentaciones (¡como esta!).
 
 ## Volviendo a Git: GitHub
 
