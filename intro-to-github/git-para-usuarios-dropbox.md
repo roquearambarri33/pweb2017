@@ -72,7 +72,7 @@ Git te requiere que funciones con un orden ligeramente diferente de operaciones 
 
 Antes de que empieces a hacer cambios, quieres asegurarte de que tienes al menos la última versión completa con los cambios del resto de tu equipo. Esto significa que lo primero que quieres hacer es descargar lo último desde la nube (dicho de otra forma, hacer un pull).
 
-Ahora que ya tienes lo último, puedes cambiarlo y editarlo como quieras. Cuando estás satisfecho con tus cambios estás listo para decirle a GIT que estás contento (o hacer un commit).
+Ahora que ya tienes lo último, puedes cambiarlo y editarlo como quieras. Cuando estás satisfecho con tus cambios estás listo para decirle a Git que estás contento (o hacer un commit).
 
 > También puedes repetir el paso 4 tantas veces como quieras, haciendo commit de pequeños cambios antes de pasar al siguiente paso.
 
@@ -110,7 +110,6 @@ Por ejemplo si cambió el título del documento, y si tú añadiste algunas nota
 
 Si Sara hizo push de su cambio antes que tú, Git te pedirá que tú lo resuelvas. Te dirá: "Sara dice que tú cobras 40e la hora, pero tú dices que cobras 350.000e. ¿Quién tiene razón?". Tú decides. Resuélvelo, guárdalo (haz commit) y haz push. Pero asegúrate de hacer otro pull antes, por si Sara detectó el error y cambió tu tarifa a 400.000e mientras tú lo corregías.
 
-
 ### Meta comentarios
 
 Cada vez que guardas (o haces commit, más bien) de algunos cambios, Git te pide un "mensaje de commit". Esto son un par de frases que describen los cambios que hiciste: un breve resumen para que alguien pudiera revisar la lista de cambios en este documento, sin tener que leerlo entero.
@@ -118,7 +117,6 @@ Cada vez que guardas (o haces commit, más bien) de algunos cambios, Git te pide
 ### Estilo
 
 Como Git es un poco más manual, se sugieren unos pocos cambios estilísticos para que todo el mundo sea más feliz. Primero, pequeños cambios. Deberías hacer un commit cada vez que terminas de hacer una modificación parcial coherente. Por ejemplo, si estás cambiando tu salario, y el de Sara, primero haz un commit con tu ascenso y un mensaje de commit como "Ajustar el salario según méritos", y luego ajusta el salario de Sara con un mensaje de commit como "Equilibrar el presupuesto". Los buenos mensajes de commit (informativos) son muy apreciados en la comunidad Git.
-
 
 Dada la naturaleza de resolver conflictos, Git también prefiere texto plano. Las imágenes son mucho más difíciles para Git (y para ti) de combinar (o merge) si dos personas las cambian a la vez. Así que cada vez que puedas, utiliza un formato de texto plano (como HTML o Markdown).
 

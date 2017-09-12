@@ -1,38 +1,112 @@
 % Introducción a GitHub
 
-Este curso está diseñado para que puedas empezar a trabajar con GitHub en menos de una hora. 
-
-En este curso, aprenderás a:
-
-- Usar el sitio web de GitHub.com para completar el flujo de trabajo GitHub
-- Colaborar con nuevos amigos en un divertido proyecto
-- ¡Añadir tu pin al mapa!
-
 ## Qué es y cómo funciona git
 
-### Diferencias con Dropbox
+### ¿Qué hay de nuevo?
+
+[Git para usuarios de Dropbox](git-para-usuarios-dropbox.md)
 
 -------
 
-Dropbox / Google Drive | git / GitHub
+Dropbox | git
 --------|-----
 guarda versiones de archivos | guarda versiones del proyecto completo
-complicado trabajar simultáneamente | permite contribuciones en equipo mediante branches
-recuperar archivos borrados, 30 días (o de pago) | todos los estados del proyecto son recuperables
+gestión de conflictos | archivos corruptos
+
+--------
+
+Dropbox | git
+--------|-----
+archivos borrados, máx 30 días (o de pago) | todos los estados del proyecto 
+
+--------
+
+Dropbox | git
+--------|-----
+todo es automático | partes importantes son manuales
 
 -------
 
-De Wikipedia:
+Funcionamiento de Dropbox:
 
-> **Git** es un software de control de versiones pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente.
+1. Instalas Dropbox
+2. Alguien comparte una carpeta contigo
+3. Tu ordenador descarga los contenidos de esa carpeta desde _la nube_
+4. Haces algunos cambios a un archivo en la carpeta y los guardas
+5. Tus cambios se suben inmediatamente a _la nube_ en Dropbox
+6. Los cambios se descargan a los ordenadores de los demás inmediatamente
 
 ----
 
-Cada vez que confirmas un cambio, o guardas el estado de tu proyecto en Git, él básicamente toma una foto del aspecto de todos tus archivos en ese momento, y guarda una referencia a esa copia instantánea. Para ser eficiente, si los archivos no se han modificado Git no almacena el archivo de nuevo, sino un enlace al archivo anterior idéntico que ya tiene almacenado. Git maneja sus datos como una secuencia de copias instantáneas.
+En cambio, con Git:
+
+4. Haces algunos cambios a un archivo en la carpeta y los guardas. Los confirmas mediante `commit`
+5. Tus cambios se suben <del>inmediatamente a _la nube_ en Dropbox</del> cuando haces `push`
+6. Los cambios se descargan a los ordenadores de los demás <del>inmediatamente</del> cuando hacen `pull`
+
+---
+
+Además, cambia el orden y añade algunos pasos:
+
+6, 4, 6, 5
+
+Es decir, haces `pull`, modificas el archivo, lo guardas, haces `commit`, haces `pull`, haces `push`. El proyecto completo con tus cambios incluidos ya está en la nube.
 
 ----
 
-![Capturas](img/snapshots.png)
+Flujo de trabajo revisado para Git (1 de 2):
+
+1. Haces `pull` para descargar una versión actualizada del proyecto
+2. Modificas los archivos necesarios, los guardas, y cuando la modificación tiene sentido propio, haces `commit`. Repite este paso tantas veces como sea necesario
+
+---
+
+Flujo de trabajo revisado para Git (2 de 2):
+
+3. Vuelves a hacer `pull` para incorporar los cambios de los demás. En este punto podrías tener que resolver conflictos
+4. Haces `push`. El proyecto y su histórico ya está actualizado y en la nube
+
+---
+
+### Diferencias avanzadas
+
+----
+
+#### Viajes en el tiempo
+
+----
+
+Del libro oficial de Git, [Pro Git](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Fundamentos-de-Git):
+
+>Cada vez que confirmas (`commit`) un cambio, o guardas el estado de tu proyecto en Git, básicamente toma una foto del aspecto de todos tus archivos en ese momento, y guarda una referencia a esa copia instantánea. (...)
+
+---
+
+Del libro oficial de Git, [Pro Git](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Fundamentos-de-Git):
+
+>(...) Para ser eficiente, si los archivos no se han modificado, Git no almacena el archivo de nuevo, sino un enlace al archivo anterior idéntico que ya tiene almacenado. Git maneja sus datos como una secuencia de copias instantáneas.
+
+----
+
+![Instantáneas](img/snapshots.png)
+
+----
+
+#### Conflictos 
+
+----
+
+Generalmente Git funciona de manera bastante inteligente y sabrá proponer una resolución satisfactoria, salvo que la modificación se haya realizado sobre la misma línea del archivo. 
+
+### Sugerencias para los commits
+
+----
+
+- Cambios pequeños. Haz un commit cada vez que una modificación o serie de modificaciones tenga sentido en sí misma
+- Resume con un infinitivo y de manera informativa en qué ha consistido el cambio (ej. "Cambiar mi salario")
+- Es mucho más fácil gestionar las modificaciones y los conflictos sobre documentos de **texto plano (como HTML o Markdown)**
+
+
 
 ## Qué es GitHub
 

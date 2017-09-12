@@ -30,27 +30,16 @@
   <h1 class="title">Introducción a GitHub</h1>
 </section>
 
-<section class="slide level6">
+<section><section id="qué-es-y-cómo-funciona-git" class="titleslide slide level2"><h1>Qué es y cómo funciona git</h1></section><section id="qué-hay-de-nuevo" class="slide level3">
+<h1>¿Qué hay de nuevo?</h1>
+<p><a href="git-para-usuarios-dropbox.md">Git para usuarios de Dropbox</a></p>
+</section><section class="slide level3">
 
-<p>Este curso está diseñado para que puedas empezar a trabajar con GitHub en menos de una hora.</p>
-<p>En este curso, aprenderás a:</p>
-<ul>
-<li>Usar el sitio web de GitHub.com para completar el flujo de trabajo GitHub</li>
-<li>Colaborar con nuevos amigos en un divertido proyecto</li>
-<li>¡Añadir tu pin al mapa!</li>
-</ul>
-</section>
-<section><section id="qué-es-y-cómo-funciona-git" class="titleslide slide level2"><h1>Qué es y cómo funciona git</h1></section><section><section id="diferencias-con-dropbox" class="titleslide slide level3"><h1>Diferencias con Dropbox</h1></section><section class="slide level6">
-
-<table style="width:21%;">
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 8%" />
-</colgroup>
+<table>
 <thead>
 <tr class="header">
-<th>Dropbox / Google Drive</th>
-<th>git / GitHub</th>
+<th>Dropbox</th>
+<th>git</th>
 </tr>
 </thead>
 <tbody>
@@ -59,30 +48,120 @@
 <td>guarda versiones del proyecto completo</td>
 </tr>
 <tr class="even">
-<td>complicado trabajar simultáneamente</td>
-<td>permite contribuciones en equipo mediante branches</td>
-</tr>
-<tr class="odd">
-<td>los conflictos pueden estropear los archivos</td>
-<td>los conflictos son más fáciles de resolver</td>
+<td>gestión de conflictos</td>
+<td>archivos corruptos</td>
 </tr>
 </tbody>
 </table>
-</section><section class="slide level6">
+</section><section class="slide level3">
 
-<p>De Wikipedia:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Dropbox</th>
+<th>git</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>archivos borrados, máx 30 días (o de pago)</td>
+<td>todos los estados del proyecto</td>
+</tr>
+</tbody>
+</table>
+</section><section class="slide level3">
+
+<table>
+<thead>
+<tr class="header">
+<th>Dropbox</th>
+<th>git</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>todo es automático</td>
+<td>partes importantes son manuales</td>
+</tr>
+</tbody>
+</table>
+</section><section class="slide level3">
+
+<p>Funcionamiento de Dropbox:</p>
+<ol type="1">
+<li>Instalas Dropbox</li>
+<li>Alguien comparte una carpeta contigo</li>
+<li>Tu ordenador descarga los contenidos de esa carpeta desde <em>la nube</em></li>
+<li>Haces algunos cambios a un archivo en la carpeta y los guardas</li>
+<li>Tus cambios se suben inmediatamente a <em>la nube</em> en Dropbox</li>
+<li>Los cambios se descargan a los ordenadores de los demás inmediatamente</li>
+</ol>
+</section><section class="slide level3">
+
+<p>En cambio, con Git:</p>
+<ol start="4" type="1">
+<li>Haces algunos cambios a un archivo en la carpeta y los guardas. Los confirmas mediante <code>commit</code></li>
+<li>Tus cambios se suben <del>inmediatamente a <em>la nube</em> en Dropbox</del> cuando haces <code>push</code></li>
+<li>Los cambios se descargan a los ordenadores de los demás <del>inmediatamente</del> cuando hacen <code>pull</code></li>
+</ol>
+</section><section class="slide level3">
+
+<p>Además, cambia el orden y añade algunos pasos:</p>
+<p>6, 4, 6, 5</p>
+<p>Es decir, haces <code>pull</code>, modificas el archivo, lo guardas, haces <code>commit</code>, haces <code>pull</code>, haces <code>push</code>. El proyecto completo con tus cambios incluidos ya está en la nube.</p>
+</section><section class="slide level3">
+
+<p>Flujo de trabajo revisado para Git (1 de 2):</p>
+<ol type="1">
+<li>Haces <code>pull</code> para descargar una versión actualizada del proyecto</li>
+<li>Modificas los archivos necesarios, los guardas, y cuando la modificación tiene sentido propio, haces <code>commit</code>. Repite este paso tantas veces como sea necesario</li>
+</ol>
+</section><section class="slide level3">
+
+<p>Flujo de trabajo revisado para Git (2 de 2):</p>
+<ol start="3" type="1">
+<li>Vuelves a hacer <code>pull</code> para incorporar los cambios de los demás. En este punto podrías tener que resolver conflictos</li>
+<li>Haces <code>push</code>. El proyecto y su histórico ya está actualizado y en la nube</li>
+</ol>
+</section><section id="diferencias-avanzadas" class="slide level3">
+<h1>Diferencias avanzadas</h1>
+</section><section class="slide level3">
+
+<h4 id="viajes-en-el-tiempo">Viajes en el tiempo</h4>
+</section><section class="slide level3">
+
+<p>Del libro oficial de Git, <a href="https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Fundamentos-de-Git">Pro Git</a>:</p>
 <blockquote>
-<p><strong>Git</strong> es un software de control de versiones pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente.</p>
+<p>Cada vez que confirmas (<code>commit</code>) un cambio, o guardas el estado de tu proyecto en Git, básicamente toma una foto del aspecto de todos tus archivos en ese momento, y guarda una referencia a esa copia instantánea. (...)</p>
 </blockquote>
-</section><section class="slide level6">
+</section><section class="slide level3">
 
-<p>Cada vez que confirmas un cambio, o guardas el estado de tu proyecto en Git, él básicamente toma una foto del aspecto de todos tus archivos en ese momento, y guarda una referencia a esa copia instantánea. Para ser eficiente, si los archivos no se han modificado Git no almacena el archivo de nuevo, sino un enlace al archivo anterior idéntico que ya tiene almacenado. Git maneja sus datos como una secuencia de copias instantáneas.</p>
-</section><section class="slide level6">
+<p>Del libro oficial de Git, <a href="https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Fundamentos-de-Git">Pro Git</a>:</p>
+<blockquote>
+<p>(...) Para ser eficiente, si los archivos no se han modificado, Git no almacena el archivo de nuevo, sino un enlace al archivo anterior idéntico que ya tiene almacenado. Git maneja sus datos como una secuencia de copias instantáneas.</p>
+</blockquote>
+</section><section class="slide level3">
 
 <figure>
-<img src="img/snapshots.png" alt="Capturas" /><figcaption>Capturas</figcaption>
+<img src="img/snapshots.png" alt="Instantáneas" /><figcaption>Instantáneas</figcaption>
 </figure>
-</section></section></section>
+</section><section class="slide level3">
+
+<h4 id="conflictos">Conflictos</h4>
+</section><section class="slide level3">
+
+<p>Generalmente Git funciona de manera bastante inteligente y sabrá proponer una resolución satisfactoria, salvo que la modificación se haya realizado sobre la misma línea del archivo.</p>
+</section><section id="sugerencias-para-los-commits" class="slide level3">
+<h1>Sugerencias para los commits</h1>
+</section><section class="slide level3">
+
+<ul>
+<li>Cambios pequeños. Haz un commit cada vez que una modificación o serie de modificaciones tenga sentido en sí misma</li>
+<li>Resume con un infinitivo y de manera informativa en qué ha consistido el cambio (ej. &quot;Cambiar mi salario&quot;)</li>
+<li>Es mucho más fácil gestionar las modificaciones y los conflictos sobre documentos de <strong>texto plano (como HTML o Markdown)</strong></li>
+</ul>
+</section></section>
+<section><section id="markdown" class="titleslide slide level2"><h1>Markdown</h1></section></section>
 <section><section id="qué-es-github" class="titleslide slide level2"><h1>Qué es GitHub</h1></section></section>
 <section><section id="crear-una-cuenta-en-github" class="titleslide slide level2"><h1>Crear una cuenta en GitHub</h1></section></section>
     </div>
