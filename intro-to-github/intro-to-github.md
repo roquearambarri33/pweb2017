@@ -116,6 +116,109 @@ La sintaxis de Markdown es simple y fácil de recordar.
 
 ![Ejemplo de Markdown](img/markdown-example.png)
 
-## Qué es GitHub
+-----
+
+Títulos de sección:
+
+```
+# Titular de primer nivel
+
+## Titular de segundo nivel
+
+###### Titular de sexto nivel
+```
+----
+
+Resaltados:
+
+```
+*cursiva*
+_cursiva_
+
+**negrita**
+__negrita__
+```
+
+----
+
+Listas:
+
+```
+- una
+- lista
+- desordenada
+
+* una 
+* lista
+* desordenada
+```
+
+----
+
+Listas:
+
+```
+1. una
+2. lista
+3. ordenada
+
+1. una
+1. lista
+1. ordenada
+```
+
+----
+
+Enlaces:
+
+```
+[Texto de enlace](http://direccion.com)
+```
+
+----
+
+[Ver más elementos de sintaxis &raquo;](../markdown.md)
+
+### Cómo usar Markdown en nuestro equipo
+
+----
+
+1. Instalar [Sublime Text 3](http://sublimetext.com/3)
+
+![Logotipo de Sublime Text](img/st2.png)
+
+----
+
+Con esto ya tenemos lo básico. Pero vamos a hacer que la experiencia sea aún más cómoda:
+
+2. Instalar el paquete Package Control: [instrucciones](https://packagecontrol.io/installation)
+
+Esto es un gestor o instalador de paquetes (o plugins, o extensiones)
+
+----
+
+3. Instalar algunos paquetes:
+    - WordCount
+    - MarkdownEditing
+
+Para esto, hacer clic en `Ctrl+Mayus+P` y empezar a escribir _package_. Aparecerá la lista de comandos del control de paquetes. Seleccionar `Install package` y presionar `Enter`. Empezar a escribir el nombre del paquete, seleccionar el deseado y presionar `Enter`. Reiniciar Sublime Text. 
+
+----
+
+Para cuando estemos haciendo trabajos de redacción, una manera aún más cómoda de trabajar con el texto sin distracciones es utilizando el modo sin distracciones (_Distraction Free Mode_), al que se accede presionando `Mayus+F11` (y se desactiva de la misma manera).
+
+----
+
+Más adelante, si os interesa, podemos ver cómo convertir estos documentos de texto plano en _documentos tradicionales_ en formato PDF, incluso Word, o incluso presentaciones (¡como esta!.
+
+## Volviendo a Git: GitHub
+
+----
+
+GitHub es una plataforma que aloja repositorios Git. Es una de las muchas posibles _nubes_ para nuestros repositorios Git. 
 
 ### Crear una cuenta en GitHub
+
+----
+
+![Crear una cuenta nueva](img/crear-cuenta.png)
