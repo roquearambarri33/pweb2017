@@ -15,8 +15,8 @@ Aquí iremos recopilando el contenido y tareas para la elaboración de actividad
 
 - [Git para usuarios de Dropbox](intro-to-github/git-para-usuarios-dropbox.md)
 - [Introducción a GitHub](http://mrn.bz/pweb-intro-github): presentación de iniciación, incluye un pequeño proyecto en GitHub
-- [Glosario de términos](intro-to-github/glorasio.md) relacionados con git y GitHub, con traducción y descripción
+- [Glosario de términos](intro-to-github/glosario.md) relacionados con git y GitHub, con traducción y descripción
 
 ## Libro oficial de git
 
-Siempre podéis recurriro al [libro oficial de git](https://git-scm.com/book/es/v2) para saber más.
+Siempre podéis recurrir al [libro oficial de git](https://git-scm.com/book/es/v2) para saber más.

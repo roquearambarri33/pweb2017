@@ -231,7 +231,7 @@ Añade algunos extras interesantes:
 
 ----
 
-Empezamos a conocer GitHub (y, por extensión, git) a través de un [tutorial introductorio](https://services.github.com/on-demand/intro-to-github/) (traduciendo al español).
+Empezamos a conocer GitHub (y, por extensión, git) a través de un [tutorial introductorio](https://mberasategi.github.io/training-kit/intro-to-github-es/) (traduciendo al español).
 
 Continuaremos creando [un sitio web personal alojado en GitHub.com a través de GitHub Desktop](https://services.github.com/on-demand/github-desktop/). Esto nos introducirá también en la forma de trabajar con git/GitHub en nuestro ordenador.
 
