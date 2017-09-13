@@ -27,7 +27,7 @@ todo es automático | partes importantes son manuales
 
 -------
 
-Funcionamiento de Dropbox:
+Funcionamiento de Dropbox para el trabajo en equipo:
 
 1. Instalas Dropbox
 2. Alguien comparte una carpeta contigo
@@ -221,8 +221,17 @@ Más adelante, si os interesa, podemos ver cómo convertir estos documentos de t
 
 GitHub es una plataforma que aloja repositorios Git. Es una de las muchas posibles _nubes_ para nuestros repositorios Git. 
 
-### Crear una cuenta en GitHub
+----
+
+Añade algunos extras interesantes:
+
+- Gestión de tareas (Issues)
+- Publicación de los contenidos (un sitio web)
+- ...
 
 ----
 
-![Crear una cuenta nueva](img/crear-cuenta.png)
+Empezamos a conocer GitHub (y, por extensión, git) a través de un [tutorial introductorio](https://services.github.com/on-demand/intro-to-github/) (traduciendo al español).
+
+Continuaremos creando [un sitio web personal alojado en GitHub.com a través de GitHub Desktop](https://services.github.com/on-demand/github-desktop/). Esto nos introducirá también en la forma de trabajar con git/GitHub en nuestro ordenador.
+

@@ -14,7 +14,8 @@ Aquí iremos recopilando el contenido y tareas para la elaboración de actividad
 ## Índice de contenidos
 
 - [Git para usuarios de Dropbox](intro-to-github/git-para-usuarios-dropbox.md)
-- Introducción a GitHub: presentación de iniciación, un pequeño proyecto en GitHub.
+- [Introducción a GitHub](http://mrn.bz/pweb-intro-github): presentación de iniciación, incluye un pequeño proyecto en GitHub
+- [Glosario de términos](intro-to-github/glorasio.md) relacionados con git y GitHub, con traducción y descripción
 
 ## Libro oficial de git
 
