@@ -7,7 +7,7 @@ En la página [Listado de estudiantes 2017-2018](estudiantes1718.md) recogeremos
     - Selecciona tu foto de perfil para crear el fork en tu cuenta personal, y no en la _organización_ DeustoPWEB
     - Ahora ya tienes un repositorio `pweb2017` en tu cuenta personal
 
-A partir de aquí, puedes trabajar a través de la interfaz web (como hiciste en el tutorial 101) o en tu escritorio a través de GitHub Desktop (como hiciste en el tutorial 102). No voy a entrar en detalles de cómo hacer eso, porque depende de qué elijas. Si tienes problemas, [crea un issue](https://github.com/DeustoPWEB/pweb2017/issues) en el repositorio de la asignatura.
+A partir de aquí, puedes trabajar a través de la interfaz web (como hiciste en el tutorial 101) o en tu escritorio a través de GitHub Desktop (como hiciste en el tutorial 102). No voy a entrar en detalles de cómo hacer cada uno de los pasos siguientes, porque depende de qué elijas y se supone que has podido aprender a hacerlo a través de los tutoriales. Si tienes problemas, [crea un issue](https://github.com/DeustoPWEB/pweb2017/issues) en el repositorio de la asignatura.
 
 2. Accede a tu fork y crea un nuevo branch con el nombre TU-USUARIO
 3. En el branch TU-USUARIO de tu fork, edita el archivo `estudiantes1718.md`:
