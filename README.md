@@ -16,6 +16,7 @@ Aquí iremos recopilando el contenido y tareas para la elaboración de actividad
 - [Git para usuarios de Dropbox](intro-to-github/git-para-usuarios-dropbox.md)
 - [Introducción a GitHub](http://mrn.bz/pweb-intro-github): presentación de iniciación, incluye un pequeño proyecto en GitHub
 - [Glosario de términos](intro-to-github/glosario.md) relacionados con git y GitHub, con traducción y descripción
+- [Listado de estudiantes](estudiantes1718.md) para este curso 2017-2018, [instrucciones](estudiantes1718-instrucciones.md) para añadir tu nombre
 
 ## Libro oficial de git
 
