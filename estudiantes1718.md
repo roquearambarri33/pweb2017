@@ -1,7 +1,7 @@
 # Listado de estudiantes 2017-2018
 
 <!-- formato con el que incluir tu nombre y link -->
-- [Apellidos, Nombre](http://url.sitio.github.io)
+- [Berasategi Zeberio, Miren](http://mberasategi.github.io)
 
 ## Grupo 1. Formas de ocio
 
