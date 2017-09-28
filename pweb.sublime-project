@@ -2,10 +2,13 @@
 	"folders":
 	[
 		{
-			"path": "D:\\Dropbox\\Google Drive\\github\\training-kit"
+			"path": "D:\\git-repos\\DeustoPWEB\\training-kit"
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "D:\\git-repos\\DeustoPWEB\\plantilla-proyecto-web"
 		}
 	]
 }
