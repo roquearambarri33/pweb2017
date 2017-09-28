@@ -6,12 +6,12 @@
 ## Grupo 1. Formas de ocio
 
 <!-- aquí el listado de miembros del grupo 1 -->
-- [Juanicorena Idiart, Ainhoa](http://ajuanicorena.github.io)
+
 
 ## Grupo 2. Igualdad de género
 
 <!-- aquí el listado de miembros del grupo 2 -->
-
+- [Juanicorena Idiart, Ainhoa](http://ajuanicorena.github.io)
 
 ## Grupo 3. La profesión del periodista
 
