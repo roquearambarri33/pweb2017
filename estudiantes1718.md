@@ -6,7 +6,6 @@
 ## Grupo 1. Formas de ocio
 
 <!-- aquí el listado de miembros del grupo 1 -->
-- [Barriuso Celis, Ander]
 
 
 ## Grupo 2. Igualdad de género
