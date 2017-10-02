@@ -8,7 +8,7 @@
 <!-- aquí el listado de miembros del grupo 1 -->
 
 ## Grupo 2. Igualdad de género
-
+- [Paulin Monfort, Aizea](http://aizeapaulin.github.io)
 <!-- aquí el listado de miembros del grupo 2 -->
 
 
