@@ -11,8 +11,9 @@
 ## Grupo 2. Igualdad de género
 
 <!-- aquí el listado de miembros del grupo 2 -->
-- [Juanicorena Idiart, Ainhoa](http://ajuanicorena.github.io)
 
+- [Juanicorena Idiart, Ainhoa](http://ajuanicorena.github.io)
+- [Zanguitu Oyarbide, Telmo](http://telmoco.github.io)
 ## Grupo 3. La profesión del periodista
 
 <!-- aquí el listado de miembros del grupo 3 -->
