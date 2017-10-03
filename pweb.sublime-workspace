@@ -11,33 +11,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/D/Dropbox/Google Drive/research/doc/produccion/art1-planes-estudio/planes/lista-2017.md",
-			"settings":
-			{
-				"buffer_size": 12964,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/06-crear-branch.md",
-			"settings":
-			{
-				"buffer_size": 1233,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Dropbox/Google Drive/github/training-kit/_includes/tell-me-why-es/branching.md",
-			"settings":
-			{
-				"buffer_size": 910,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -110,6 +83,9 @@
 	],
 	"file_history":
 	[
+		"/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/06-crear-branch.md",
+		"/D/Dropbox/Google Drive/research/doc/produccion/art1-planes-estudio/planes/lista-2017.md",
+		"/D/Dropbox/Google Drive/github/training-kit/_includes/tell-me-why-es/branching.md",
 		"/D/Dropbox/Google Drive/grado/asignaturas/PWEB Proyectos para la web/pweb.sublime-project",
 		"/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/05-clonar-repositorio-en-local.md",
 		"/D/Dropbox/Google Drive/github/training-kit/_includes/tell-me-why-es/local-remote.md",
@@ -127,7 +103,6 @@
 		"/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/15-push-y-abrir-pr.md",
 		"/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/14-revisar-flujo-local.md",
 		"/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/13-añadir-sitio-a-showcase.md",
-		"/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/06-crear-branch.md",
 		"/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/07-hacer-cabios-locales.md",
 		"/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/12-sync-repo-local.md",
 		"/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/08-nuevos-commits-desktop.md",
@@ -140,7 +115,6 @@
 		"/D/Dropbox/Google Drive/research/doc/produccion/art1-planes-estudio/art1-planes-estudio-v.internet.md",
 		"/D/Dropbox/Google Drive/grado/asignaturas/PWEB Proyectos para la web/groupeng-1.2/groupspec.groupeng",
 		"/D/Dropbox/Google Drive/grado/asignaturas/PWEB Proyectos para la web/2017-2018/grupos.md",
-		"/D/Dropbox/Google Drive/research/doc/produccion/art1-planes-estudio/planes/lista-2017.md",
 		"/D/Dropbox/Google Drive/grado/asignaturas/PWEB Proyectos para la web/groupeng-1.2/grupos2017.csv",
 		"/D/Dropbox/Google Drive/grado/asignaturas/PWEB Proyectos para la web/groupeng-1.2/sample_group_specification.groupeng",
 		"/D/Dropbox/Google Drive/grado/asignaturas/PWEB Proyectos para la web/groupeng-1.2/sample_group_specification_annotated.groupeng",
@@ -239,7 +213,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -377,112 +351,14 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/D/Dropbox/Google Drive/research/doc/produccion/art1-planes-estudio/planes/lista-2017.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12964,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11276,
-								11276
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5170.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/Dropbox/Google Drive/github/training-kit/paths/github-desktop-es/06-crear-branch.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1215,
-								1215
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/Dropbox/Google Drive/github/training-kit/_includes/tell-me-why-es/branching.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 910,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								377,
-								377
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 139,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -527,7 +403,7 @@
 	"project": "pweb.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":

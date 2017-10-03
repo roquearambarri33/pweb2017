@@ -2,13 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "D:\\git-repos\\DeustoPWEB\\training-kit"
-		},
-		{
 			"path": "."
 		},
 		{
-			"path": "D:\\git-repos\\DeustoPWEB\\plantilla-proyecto-web"
+			"path": "/home/miren/Repositories/DeustoPWEB/plantilla-proyecto-web"
 		}
 	]
 }
