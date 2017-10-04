@@ -13,6 +13,7 @@
 - [Juanicorena Idiart, Ainhoa](http://ajuanicorena.github.io)
 - [Paulin Monfort, Aizea](http://aizeapaulin.github.io)
 - [Zanguitu Oyarbide, Telmo](http://telmoco.github.io)
+- [Robledo Salazar, María] 
 
 ## Grupo 3. La profesión del periodista
 <!-- aquí el listado de miembros del grupo 3 -->
