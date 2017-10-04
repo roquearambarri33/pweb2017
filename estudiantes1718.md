@@ -22,4 +22,3 @@
 <!-- aquí el listado de miembros del grupo 4 -->
 
 - [Jaén Huete, María](htto://mjaenh.github.io)
-- [Franco Gómez, Rocío](http://rofrago.github.io)
