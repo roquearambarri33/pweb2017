@@ -18,6 +18,7 @@ Aquí iremos recopilando el contenido y tareas para la elaboración de actividad
 - [Glosario de términos](intro-to-github/glosario.md) relacionados con git y GitHub, con traducción y descripción
 - [Listado de estudiantes](estudiantes1718.md) para este curso 2017-2018, [instrucciones](estudiantes1718-instrucciones.md) para añadir tu nombre
 - [Guía de sintaxis de Markdown](markdown.md) para editar documentos de texto plano
+- [Cómo inciar vuestro repositorio de grupo](iniciar-repo-grupo.md), instrucciones acerca de cómo empezar con vuestro proyecto en grupo en un repositorio GitHub
 
 ## Libro oficial de git
 
