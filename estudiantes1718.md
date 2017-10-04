@@ -18,5 +18,8 @@
 <!-- aquí el listado de miembros del grupo 3 -->
 
 
-## Grupo 4. (¿Tema?)
+## Grupo 4. Diversidad cultural
 <!-- aquí el listado de miembros del grupo 4 -->
+
+- [Jaén Huete, María](htto://mjaenh.github.io)
+- [Franco Gómez, Rocío](http://rofrago.github.io)
