@@ -9,10 +9,9 @@
 
 ## Grupo 2. Igualdad de género
 <!-- aquí el listado de miembros del grupo 2 -->
-
-- [Juanicorena Idiart, Ainhoa](http://ajuanicorena.github.io)
-- [Paulin Monfort, Aizea](http://aizeapaulin.github.io)
-- [Zanguitu Oyarbide, Telmo](http://telmoco.github.io)
+- :ballot_box_with_check: [Juanicorena Idiart, Ainhoa](http://ajuanicorena.github.io)
+- :ballot_box_with_check: [Paulin Monfort, Aizea](http://aizeapaulin.github.io)
+- :ballot_box_with_check: [Zanguitu Oyarbide, Telmo](http://telmoco.github.io)
 - Robledo Salazar, María 
 
 ## Grupo 3. La profesión del periodista
@@ -21,3 +20,6 @@
 
 ## Grupo 4. (¿Tema?)
 <!-- aquí el listado de miembros del grupo 4 -->
+
+
+:ballot_box_with_check: Quienes ya habéis recogido la pegatina :wink:
