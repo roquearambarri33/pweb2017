@@ -20,7 +20,7 @@
 
 ## Grupo 4. Diversidad Cultural
 <!-- aquí el listado de miembros del grupo 4 -->
-- [Jaén Huete, María] (http://mjaenh.github.io)
+- [Jaén Huete, María](http://mjaenh.github.io)
 
 
 :ballot_box_with_check: Quienes ya habéis recogido la pegatina :wink:
