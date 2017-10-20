@@ -16,6 +16,7 @@
 
 ## Grupo 3. La profesión del periodista
 <!-- aquí el listado de miembros del grupo 3 -->
+- Ramírez Rezola, Xabier
 
 
 ## Grupo 4. Diversidad Cultural
