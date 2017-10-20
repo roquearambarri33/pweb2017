@@ -3,7 +3,7 @@
 <!-- formato con el que incluir tu nombre y link -->
 - [Berasategi Zeberio, Miren](http://mberasategi.github.io)
 
-## Grupo 1. Formas de ocio
+## [Grupo 1. Formas de ocio](https://github.com/DeustoPWEB/pweb-grupo-2)
 
 <!-- aquí el listado de miembros del grupo 1 -->
 
