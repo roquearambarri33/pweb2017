@@ -7,7 +7,7 @@
 <!-- aquí el listado de miembros del grupo 1 -->
 
 
-## Grupo 2. Igualdad de género
+## [Grupo 2. Igualdad de género](https://github.com/DeustoPWEB/pweb-grupo-2)
 <!-- aquí el listado de miembros del grupo 2 -->
 - :ballot_box_with_check: [Juanicorena Idiart, Ainhoa](http://ajuanicorena.github.io)
 - :ballot_box_with_check: [Paulin Monfort, Aizea](http://aizeapaulin.github.io)
