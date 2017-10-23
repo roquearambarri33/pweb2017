@@ -16,6 +16,7 @@
 
 ## [Grupo 3. La profesión del periodista](https://github.com/DeustoPWEB/pweb-grupo-3)
 <!-- aquí el listado de miembros del grupo 3 -->
+- [Arambarri Arsuaga, Roque](htpp://roquearambarri33.github.io)
 - [Barreto Barroso, Beñat](http://barreto21.github.io)
 - [Bermudez Sandín, Inaxio](http://inaxiobermudez.github.io)
 - Ramírez Rezola, Xabier
