@@ -16,9 +16,10 @@
 
 ## [Grupo 3. La profesión del periodista](https://github.com/DeustoPWEB/pweb-grupo-3)
 <!-- aquí el listado de miembros del grupo 3 -->
-- [Santamaría Fernández, Endika](http://endikasantamaria1.github.io)
 - [Barreto Barroso, Beñat](http://barreto21.github.io)
 - [Bermudez Sandín, Inaxio](http://inaxiobermudez.github.io)
+- Ramírez Rezola, Xabier
+- [Santamaría Fernández, Endika](http://endikasantamaria1.github.io)
 
 ## Grupo 4. Diversidad Cultural
 <!-- aquí el listado de miembros del grupo 4 -->
